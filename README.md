@@ -41,6 +41,8 @@ This is a Python GUI built with `tkinter` that uses [pyX2Cscope](https://github.
    python motor_gui.py
    ```
 
+Detailed documentation is hosted at GitHub.io: https://x2cscope.github.io/pyx2cscope/
+
 ## Usage
 
 1. Launch the GUI and select your ELF file and COM port.
