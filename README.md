@@ -2,7 +2,7 @@
 
 **Last updated:** June 26, 2025
 
-This is a Python GUI built with `tkinter` that uses [pyX2Cscope](https://github.com/X2Cscope/pyx2cscope) to control a motor through a serial COM port and an ELF file. It’s designed to work with Microchip’s [MCAF](https://microchiptech.github.io/mcaf-doc/8.0.1/index.html)-based projects and allows the user to safely run a start–stop motor sequence with real-time feedback.
+This is a Python GUI built with `tkinter` that uses [pyX2Cscope](https://github.com/X2Cscope/pyx2cscope) to control a motor through a serial COM port and an ELF file. It’s designed to work with Microchip’s MCAF-based projects and allows the user to safely run a start–stop motor sequence with real-time feedback.
 
 ## Features
 
@@ -52,6 +52,17 @@ This is a Python GUI built with `tkinter` that uses [pyX2Cscope](https://github.
    - Number of iterations
 3. Press **Start** to begin the sequence. You can stop it manually using the **Stop** button.
 4. The GUI will show live speed readouts based on `velocityReference` and `velocityMeasured`.
+
+## Screenshots and Video
+
+**Demo GIF:**  
+![StartStopTutorial](StartStopTutorial.gif)
+
+**GUI Interface:**  
+![GUI](gui.png)
+
+**Video walkthrough:**  
+[Watch on YouTube](https://youtu.be/3JTQvVq21s4)
 
 ## How to Determine RPM/Count Scaling
 
