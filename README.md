@@ -72,7 +72,7 @@ To calculate the correct value for “RPM per count”, refer to the HTML report
 <YourProject>.X/mcc_generated_files/motorBench/aux-files/report.html
 ```
 
-The correct scale is usually highlighted in blue in that file. An example value is:
+An example value is:
 
 ```
 0.19913 RPM/ct
